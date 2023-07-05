@@ -20,6 +20,7 @@ public class UseJSLib: MonoBehaviour
 #endif
     }
 
+
 #if UNITY_WEBGL
     [DllImport("__Internal")]
     private static extern bool isIos();

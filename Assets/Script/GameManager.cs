@@ -10,7 +10,6 @@ using UnityEngine.UI;
 using System.Web;
 using System.Runtime.CompilerServices;
 
-
 public class GameManager : MonoBehaviour
 {
     [SerializeField]
@@ -941,7 +940,7 @@ public class GameManager : MonoBehaviour
     {
 
         string strVal = txt_Value.GetComponent<TMP_Text>().text;
-        if (int.Parse(strVal) == 50)
+        if (int.Parse(strVal) <= 50)
             return;
         txt_Value.GetComponent<TMP_Text>().text = (int.Parse(strVal) - 50).ToString();
         btn_BetWin.transform.GetChild(0).gameObject.GetComponent<TMP_Text>().text = "BET : " + betCoinsNum * int.Parse(txt_Value.GetComponent<TMP_Text>().text);

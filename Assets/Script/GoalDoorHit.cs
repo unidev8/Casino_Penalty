@@ -31,6 +31,10 @@ public class GoalDoorHit : MonoBehaviour
                 
         }
     }
-   
 
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
 }

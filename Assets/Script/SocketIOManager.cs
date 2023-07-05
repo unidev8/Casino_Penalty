@@ -11,7 +11,6 @@ using Unity.VisualScripting;
 using System.Runtime.CompilerServices;
 using UnityEngine.UIElements;
 
-
 public class SocketIOManager : MonoBehaviour
 {
     public SocketIOCommunicator sioCom;
